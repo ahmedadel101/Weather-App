@@ -1,7 +1,8 @@
 # Weather-Journal App Project
 
-#  Make Server to make api get and post by Node.js 
-# then make request get and post in javascript onSubmit Form 
+# Project Plan
+Make Server to make api get and post by Node.js 
+then make request get and post in javascript onSubmit Form 
 
 ## Overview
 This project requires you to create an asynchronous web app that uses Web API and user data to dynamically update the UI. 
