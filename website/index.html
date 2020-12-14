@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Weather Journal</title>
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,600,700|Ranga:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container-fluid app ">
+        <div class="container p-5">
+        <div class="headline  w-100 text-center">
+            Weather Journal App
+        </div>
+
+<!-- Form -->
+        <form action="" id="submitForm">
+            <div class="form-group holder zip">
+                <label for="">Enter Zipcode Here</label>
+                <input type="tel" class="form-control zip" name="zip" id="zip" aria-describedby="helpId" placeholder="Enter Zipcode Here">
+            </div>
+            <div class="form-group holder feel">
+                <label for="">How are you feeling today?</label>
+                <textarea class="form-control feeling" name="feel" id="feelings" rows="5" cols="50"></textarea>
+            </div>
+            <button type="submit">Generate</button>
+        </form>
+<!-- End Form-->
+        
+        <div class="holder entry mt-5">
+            <div class="title">Most Recent Entry</div>
+            <div id="entryHolder">
+                
+            </div>
+        </div>
+        </div>
+    </div>
+    <script src="js/popper.min.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="app.js"></script>
+
+</body>
+
+</html>
