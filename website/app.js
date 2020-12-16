@@ -1,5 +1,5 @@
 /* Global Variables */
-const apiKey = 'abfdb6607d48d78c9bc9e74abfa87f0e';
+const apiKey = 'abfdb6607d48d78c9bc9e74abfa87f0e&units=imperial';
 
 let zipCode = document.getElementById('zip')
 let feeling = document.getElementById('feelings')
